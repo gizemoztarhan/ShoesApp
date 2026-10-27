@@ -33,4 +33,4 @@ KICKS, ayakkabı ürünlerinin listelenebildiği ve detaylarının görüntülen
 
 ## 👀 Önizleme
 
-![Ayakkabı E-Ticaret Projesi Önizlemesi](./public/Kayıtkicks.gif)
+![Ayakkabı E-Ticaret Projesi Önizlemesi](./client/public/Kayıtkicks.gif)
