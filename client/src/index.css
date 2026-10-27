@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-my-blue: #3049a8;
+  --color-my-yellow: #d98218;
+  --color-grey: #bdbdb8;
+  --color-dark-grey: #171715;
+  --color-main-grey: #4a4a48;
+  --color-white: #ebebeb;
+  --color-fa-white: #e5e5e5;
+}
+@layer bases {
+  body {
+    @apply py-8 px-4 md:px-8 lg:px-12 xl:px-16 bg-grey text-dark-grey;
+  }
+}
+
+@layer components {
+  .header-button {
+    @apply px-6 py-2 hover:bg-grey transition cursor-pointer whitespace-nowrap w-full;
+  }
+
+  .footer-button {
+    @apply bg-black p-4 rounded-lg cursor-pointer hover:brightness-90 transition;
+  }
+}
